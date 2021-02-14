@@ -1,0 +1,18 @@
+[package]
+name = "boys_club"
+version = "0.1.0"
+authors = ["Steve Lam <stevyo99@yahoo.ca>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = { path = "forked_iced" }
+iced_native = { path = "forked_iced/native" }
+iced_winit = { path = "forked_iced/winit" }
+iced_wgpu = { path = "forked_iced/wgpu", features = ["image"] }
+iced_graphics = { path = "forked_iced/graphics" }
+rand = "0.8.3"
+
+[build-dependencies]
+codegen = "0.1.3"

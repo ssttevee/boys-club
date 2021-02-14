@@ -1,0 +1,99 @@
+#################################################################################################
+ 
+  /$$$$$$  /$$ /$$                                     /$$                   /$$                                                  
+ /$$__  $$| $$|__/                                    | $$                  | $$                                                  
+| $$  \__/| $$ /$$  /$$$$$$   /$$$$$$  /$$   /$$      | $$$$$$$  /$$   /$$ /$$$$$$        
+| $$      | $$| $$ /$$__  $$ /$$__  $$| $$  | $$      | $$__  $$| $$  | $$|_  $$_/      
+| $$      | $$| $$| $$  \ $$| $$  \ $$| $$  | $$      | $$  \ $$| $$  | $$  | $$          
+| $$    $$| $$| $$| $$  | $$| $$  | $$| $$  | $$      | $$  | $$| $$  | $$  | $$ /$$    
+|  $$$$$$/| $$| $$| $$$$$$$/| $$$$$$$/|  $$$$$$$      | $$$$$$$/|  $$$$$$/  |  $$$$/      
+ \______/ |__/|__/| $$____/ | $$____/  \____  $$      |_______/  \______/    \___/     
+                  | $$      | $$       /$$  | $$                                                  
+                  | $$      | $$      |  $$$$$$/                                              
+                  |__/      |__/       \______/                               
+
+  /$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$ 
+ /$$__  $$ /$$__  $$ /$$__  $$ /$$__  $$
+| $$  \ $$| $$$$$$$$| $$  \ $$| $$$$$$$$
+| $$  | $$| $$_____/| $$  | $$| $$_____/
+| $$$$$$$/|  $$$$$$$| $$$$$$$/|  $$$$$$$
+| $$____/  \_______/| $$____/  \_______/
+| $$                | $$                
+| $$                | $$                
+|__/                |__/   
+
+#################################################################################################
+  /$$$$$$                        /$$                           /$$    
+ /$$__  $$                      | $$                          | $$    
+| $$  \__/  /$$$$$$  /$$$$$$$  /$$$$$$    /$$$$$$  /$$   /$$ /$$$$$$  
+| $$       /$$__  $$| $$__  $$|_  $$_/   /$$__  $$|  $$ /$$/|_  $$_/  
+| $$      | $$  \ $$| $$  \ $$  | $$    | $$$$$$$$ \  $$$$/   | $$    
+| $$    $$| $$  | $$| $$  | $$  | $$ /$$| $$_____/  >$$  $$   | $$ /$$
+|  $$$$$$/|  $$$$$$/| $$  | $$  |  $$$$/|  $$$$$$$ /$$/\  $$  |  $$$$/
+ \______/  \______/ |__/  |__/   \___/   \_______/|__/  \__/   \___/  
+
+    src: https://en.wikipedia.org/wiki/Pepe_the_Frog)
+
+
+   - Earlier usage was mostly under sad context 
+   - Newer usage takes a lighter tone (combined with the internet's light takes on suicide (and other
+     dark topics)) commonly seen with peeplaugh
+
+   - Can be used in any context really if you have the right image
+
+
+#################################################################################################
+
+ /$$$$$$       /$$                    
+|_  $$_/      | $$                    
+  | $$    /$$$$$$$  /$$$$$$   /$$$$$$ 
+  | $$   /$$__  $$ /$$__  $$ |____  $$
+  | $$  | $$  | $$| $$$$$$$$  /$$$$$$$
+  | $$  | $$  | $$| $$_____/ /$$__  $$
+ /$$$$$$|  $$$$$$$|  $$$$$$$|  $$$$$$$
+|______/ \_______/ \_______/ \_______/
+                                      
+
+- On new window focused, check the window title (really just what program is running)
+  add stupid suggestions for what todo on that window (Don't do it on every window focus
+  just some)
+
+    +--------------+-------------------------------+
+    | Window List  |          Idea to show         |
+    +--------------+-------------------------------+
+    |              | Pepe makes a meme about the   |
+    |    Chrome    | fact that chrome isn't as     |
+    |              | private as firefox            |          
+    +--------------+-------------------------------+
+    |   Terminal   | Make a joke about hacking     |          
+    +--------------+-------------------------------+
+    |              | Make fun of the fact that     | 
+    |   Firefox    | they care about their privacy |
+    |              | ex: What, afraid the gov is   |
+    |              |     gonna find your porn?     |     
+    +--------------+-------------------------------+
+    |   YOUR OS    | Just fucking flame the OS     |          
+    +--------------+-------------------------------+
+    |     |      |          
+    |     |      |          
+
+
+
+
+
+- Idle animations - Go through a list of pepedances and show them when nothing is happening
+   - Cool idea for idle: Have peperun away and come back with a funny thing (Show pepe getting 
+     smaller until he's not visible, then do the reverse with a new pepe that holds something)
+
+     (The object can change every time, maybe he got a snack, maybe he got a toaster and said 
+     brb gonna take a bath, then walks off screen)
+
+
+- Every (rand_int(0, X)) he states a quote from a list of quotes about either meme culture, suicide 
+  why it's hell to develop, etc etc
+
+- Maybe pepe can swap out to a waifu (but I'm gonna spend that entire time making fun of waifus bc 
+  fuck you weebs (sorry steve))
+
+
+
