@@ -40,6 +40,27 @@ struct Pepe {
     dragging: bool,
 }
 
+impl Pepe {
+    fn randomize(&mut self) {
+        let prev_pepe = self.selected_pepe;
+        while self.selected_pepe == prev_pepe {
+            self.selected_pepe = rand::random::<usize>() % PEPES.len();
+        }
+
+        if self.joke.is_empty() {
+            if rand::random::<u8>() < 16 {
+                // approx 1 in 16 chance to show joke
+                self.joke = String::from(textgen::next_joke());
+                self.changed = true
+            }
+        } else if rand::random::<u8>() < 32 {
+            // approx 1 in 8 chance to hide joke
+            self.joke = String::default();
+            self.changed = true
+        }
+    }
+}
+
 struct Style {}
 
 impl iced::container::StyleSheet for Style {
@@ -101,17 +122,21 @@ impl iced_winit::application::Application for Pepe {
     type Flags = ();
 
     fn new(_: Self::Flags) -> (Self, Command<Message>) {
+        let mut pepe = Self {
+            selected_pepe: 0,
+            joke: String::default(),
+            changed: true,
+            skip_next_mouse_move: false,
+            drag_start_mouse_pos: Position::default(),
+            mouse_pos: Position::default(),
+            mouse_down: false,
+            dragging: false,
+        };
+
+        pepe.randomize();
+
         (
-            Self {
-                selected_pepe: 0,
-                joke: String::default(),
-                changed: true,
-                skip_next_mouse_move: false,
-                drag_start_mouse_pos: Position::default(),
-                mouse_pos: Position::default(),
-                mouse_down: false,
-                dragging: false,
-            },
+            pepe,
             Command::none(),
         )
     }
@@ -155,22 +180,7 @@ impl iced_winit::application::Application for Pepe {
                 if self.dragging {
                     self.dragging = false;
                 } else {
-                    let prev_pepe = self.selected_pepe;
-                    while self.selected_pepe == prev_pepe {
-                        self.selected_pepe = rand::random::<usize>() % PEPES.len();
-                    }
-
-                    if self.joke.is_empty() {
-                        if rand::random::<u8>() < 16 {
-                            // approx 1 in 16 chance to show joke
-                            self.joke = String::from(textgen::next_joke());
-                            self.changed = true;
-                        }
-                    } else if rand::random::<u8>() < 32 {
-                        // approx 1 in 8 chance to hide joke
-                        self.joke = String::default();
-                        self.changed = true;
-                    }
+                    self.randomize();
                 }
             }
             Rendered => {
