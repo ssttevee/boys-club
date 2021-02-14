@@ -2,6 +2,7 @@
 extern crate iced;
 extern crate iced_graphics;
 extern crate rand;
+extern crate textgen;
 
 use iced::{
     widget::{image, Image, Text},
@@ -96,14 +97,6 @@ impl iced_winit::Program for Pepe {
     }
 }
 
-fn next_joke() -> String {
-    if rand::random() {
-        String::from("Oh god you use spotify? What are you a basic white girl? Need a Trenti iced coffee, 12 pumps vanilla, 6 pumps hazelnut, 4 pumps caramel, 5 pumps skinny mocha, a splash of soy, coffee to the star on the siren's head, ice, double-blended!")
-    } else {
-        String::from("omg are you a l337 hax0r???? can you teech me how 2 hax and get free roblox")
-    }
-}
-
 impl iced_winit::application::Application for Pepe {
     type Flags = ();
 
@@ -170,7 +163,7 @@ impl iced_winit::application::Application for Pepe {
                     if self.joke.is_empty() {
                         if rand::random::<u8>() < 16 {
                             // approx 1 in 16 chance to show joke
-                            self.joke = next_joke();
+                            self.joke = String::from(textgen::next_joke());
                             self.changed = true;
                         }
                     } else if rand::random::<u8>() < 32 {

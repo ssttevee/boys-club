@@ -1,0 +1,11 @@
+[package]
+name = "textgen_bindings"
+version = "0.1.0"
+authors = ["Aud Lee <esports.coachaud@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+windows = "0.3.1"
+
+[build-dependencies]
+windows = "0.3.1"

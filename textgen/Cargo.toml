@@ -1,0 +1,13 @@
+[package]
+name = "textgen"
+version = "0.1.0"
+authors = ["Aud Lee <esports.coachaud@gmail.com>"]
+
+[dependencies]
+rand = "0.8.3"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+xcb  = "0.9.0"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+bindings = { package = "textgen_bindings", path = "bindings" }

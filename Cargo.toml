@@ -13,6 +13,7 @@ iced_winit = { path = "forked_iced/winit" }
 iced_wgpu = { path = "forked_iced/wgpu", features = ["image"] }
 iced_graphics = { path = "forked_iced/graphics" }
 rand = "0.8.3"
+textgen = { package = "textgen", path = "textgen" }
 
 [build-dependencies]
 codegen = "0.1.3"
